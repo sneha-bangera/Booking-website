@@ -1,0 +1,35 @@
+.item{
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(246, 246, 246);
+    margin-top: 40px;
+}
+.item p{
+    padding-left: 15px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.item-name{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* .item-price-star img{
+    width: 40%;
+    height: 40px;
+} */
+ .item-price-star{
+    margin-bottom: 30px;
+    color: rgb(90, 90, 90);
+ }
+
+.item:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    cursor: pointer;
+}

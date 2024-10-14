@@ -1,0 +1,41 @@
+.hero-sec{
+    display: flex;
+    background-color: rgb(238, 255, 245);
+    margin: 30px;
+    margin-top: 40px;
+    height: 70vh;
+    margin-bottom: 80px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hero-info{
+    width: 50%;
+}
+.hero-info h2{
+    font-size: 40px;
+    padding: 20px 40px 10px 40px;
+    text-align: justify;
+}
+.hero-info p{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+}
+.hero-info span{
+    color: rgb(0, 173, 0);
+    background-color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.hero-img{
+    width: 50%;
+}
+.hero-img img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 15px;
+}
